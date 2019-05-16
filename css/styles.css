@@ -63,6 +63,30 @@ nav.navbar {
 }
 
 
+/* PROJECTS section */
+.projects_section {
+    background-color: #5a5a5a;
+}
+.petstore-box {
+    background-image: url('../img/PetStore.png');
+    height: 400px;
+    background-size: 400px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.petstore-box h2 {
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+    text-shadow: 2px 2px 3px #0a0a0a;
+}
+.restaurante-box {
+    background-image: url(../img/Restaurante.png);
+    height: 400px;
+    background-size: 400px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
 /* CONTACT section */
