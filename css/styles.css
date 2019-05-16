@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Kanit|Raleway');
+
+/* GLOBAL */
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+.wrap {
+    min-height: 100vh;
+}
+/* NAV section */
+.navbar-default {
+    border-color: transparent;
+    background-color: transparent; 
+}
+.navbar-default .navbar-nav > li > a {
+    color: #5381f1;
+    background-color: transparent;
+    text-shadow: 1px 1px 1px #5a5a5a;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #9a9a9a;
+    text-shadow: 1px 1px 2px #5a5a5a;
+}
+nav.navbar {
+    position: fixed;
+    top: 100;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+.navbar-brand > img {
+    margin-top: -60px;
+}
+/* CAROUSEL section */
+.carousel {
+    margin-bottom: 0px;
+}
+.carousel-caption {
+    z-index: 10;
+    padding-bottom: 200px;
+    color: #5381f1;
+    text-shadow: 2px 2px 2px #0a0a0a;
+}
+.name {
+    font-size: 100px;
+}
+.carousel-inner .item {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.main_img1 {
+    background-image: url(https://images.unsplash.com/photo-1554364523-59b184311d92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80)
+}
+.main_img2 {
+    background-image: url('../img/Miata.JPG');
+}
+.glyphicon {
+    color: #5a5a5a;
+}
+
+
+
+
+/* CONTACT section */
+
+.contact {
+    margin-top: 0;
+}
+.contact_me {
+    color: #5a5a5a;
+    text-shadow: 1px 1px 1px #0a0a0a;
+    background-color: #9a9a9a;
+    
+}
+.form {
+    color: #5381f1;
+    text-shadow: 0.4px 0.4px 0.4px #0a0a0a;
+}
+.map {
+    height: 400px;
+    width: 400px;
+}
+/* FOOTER section */
+.footer {
+    height: 125px;
+    width: 100%;
+    background-color: #5a5a5a;
+    clear: left;
+}
+
+.footer-col {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.fa-instagram {
+    font-size: 3em;
+    color: #5381f1;
+}
+.fa-twitter {
+    font-size: 3em;
+    color: #5381f1;
+}
+.footer-col p {
+    color: #5381f1;
+    text-shadow: 0.4px 0.4px 0.4px #0a0a0a;
+}

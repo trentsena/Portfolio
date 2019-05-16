@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,33 +15,137 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><img src="img/TS-Logo.png" alt="MainLogo">
+                </a>
             </div>
         </div>
 
         <div class="collapse navbar-collapse" id="mainNav">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
-                        <span class="sr-only"></span>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#"></a>
-                    </li>
-                    <li>
-                        <a href="#"></a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <span class="sr-only"></span>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    
-    
 
+    <!-- CAROUSEL section -->
+
+    <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" data-ride=carousel>
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item main_img1 active">
+                    <div class="carousel-caption">
+                        <p class="name">Trent Sena</p>
+                        <h3>Student Developer</h3>
+                    </div>
+                </div>
+                <div class="item main_img2 ">
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+            </div>
+            <a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a href="#myCarousel" class="right carousel-control" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- PROJECTS section -->
+
+<div class="container-fluid">
+    <div class="container">
+        <a></a>
+    </div>
+</div>
+
+    <!-- CONTACT section -->
+
+    <div id="contact">
+        <div class="container-fluid contact_me">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="row contact">
+                    <div class="col-sm-12">
+                        <h1>Contact Me</h1>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-sm-6">
+                            <div class="col-sm-12 form">
+                                <form action="#"></form>
+                                <div class="form-group">
+                                    <label for="name">Name: 
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="your name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">
+                                        Email:
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="your email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">
+                                        Subject:
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="your subject">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">
+                                        Message:
+                                        <textarea placeholder="write your message here" cols="80" rows="3" class="form-control"></textarea>
+                                    </label>
+                                </div>
+                                <button class="btn btn-default center-block send_message">Send Message</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6  map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.6042401462996!2d-119.78796568465441!3d36.732064979962686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5cfdf4b6b%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1557365898677!5m2!1sen!2sus" width="400" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER section -->
+    <footer class="footer">
+        <div class="footer-col">
+        <a href="https://www.instagram.com/trentsena/" target=""><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/trent_sena?lang=en" target=""><i class="fab fa-twitter"></i></a>
+            <p>&copy;Trent Sena. All Rights Reserved. 2019</p>
+        </div>
+    </footer>
+
+    <!-- javascript	 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
