@@ -67,25 +67,51 @@ nav.navbar {
 .projects_section {
     background-color: #5a5a5a;
 }
+.container { 
+    flex-direction: row;
+}
+.link {
+    text-align: center;
+    color: #5381f1;
+}
 .petstore-box {
     background-image: url('../img/PetStore.png');
     height: 400px;
-    background-size: 400px 250px;
+    background-size: 350px 250px;
     background-repeat: no-repeat;
     background-position: center;
 } 
 .petstore-box h2 {
     text-align: center;
     margin-top: 150px;
-    color: #fff;
+    color: #5381f1;
     text-shadow: 2px 2px 3px #0a0a0a;
 }
 .restaurante-box {
     background-image: url(../img/Restaurante.png);
     height: 400px;
-    background-size: 400px 250px;
+    background-size: 350px 250px;
     background-repeat: no-repeat;
     background-position: center;
+}
+.restaurante-box h2 {
+    text-align: center;
+    margin-top: 150px;
+    color: #5381f1;
+    text-shadow: 2px 2px 3px #0a0a0a;
+}
+.-box {
+    background-image: url('../img/');
+    height: 400px;
+    background-size: 350px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.-box h2 {
+    text-align: center;
+    margin-top: 150px;
+    color: #5381f1;
+    text-shadow: 2px 2px 3px #0a0a0a;
 }
 
 
