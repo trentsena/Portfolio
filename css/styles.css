@@ -68,9 +68,11 @@ nav.navbar {
     background-color: #5a5a5a;
 }
 .container { 
+    display: flex;
     flex-direction: row;
+    width: 100%;
 }
-.link {
+.projects {
     text-align: center;
     color: #5381f1;
 }
